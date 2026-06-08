@@ -1,0 +1,168 @@
+ @charset "utf-8";
+
+ * {
+   margin: 0px;
+   padding: 0px;
+
+ }
+
+
+ html,
+ body {
+
+   height: 100vh;
+   width: 100vw;
+   background-color: black;
+
+ }
+
+ body {
+   height: 100%;
+   background: url(../imagens/fundo-parede.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+
+ main {
+   position: relative;
+   height: 100vh;
+
+ }
+
+ section#playdemo {
+   position: absolute;
+   top: 90px;
+   left: 45px;
+
+   height: 480px;
+   width: 260px;
+   background-color: rgba(29, 27, 27, 0.884);
+   border-radius: 20px;
+   box-shadow: 5px 3px 15px black;
+ }
+
+ section#playdemo img {
+   position: relative;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -98%);
+
+   height: 200px;
+   width: 200px;
+   border-radius: 6px;
+   border: 5px solid rgba(0, 0, 0, 0.842);
+   background-repeat: no-repeat;
+ }
+
+ section#playdemo audio {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, 90%);
+
+   width: 90%;
+   margin: auto;
+   display: block;
+
+ }
+
+ section#playdemo p {
+   position: absolute;
+   display: flexbox;
+   top: 380px;
+   left: 26px;
+
+
+   background-color: black;
+   font-family: medievalsharp, cursive;
+   font-size: 2em;
+   color: white;
+   padding: 10px;
+   height: 38px;
+   width: 187px;
+   text-align: center;
+   border-radius: 10px;
+   cursor: pointer;
+
+ }
+
+ section#playdemo p a {
+    color: white;
+    text-decoration: none;
+ }
+
+ section#playdemo p:hover {
+   background-color: rgba(255, 255, 255, 0.041);
+   color: black;
+   text-shadow: 2px 2px 3px black;
+   box-shadow: 3px 3px 8px black;
+
+ }
+
+ section#quadro-p {
+   position: absolute;
+   top: 24%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+
+   height: 225px;
+   width: 219px;
+   background: url('../imagens/moldura-p.png');
+   background-repeat: no-repeat;
+
+ }
+
+ section#quadro-g {
+   position: absolute;
+   top: 65%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+
+   height: 333px;
+   width: 500px;
+   background: url(../imagens/moldura-g.png.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+ iframe#logocaos {
+   position: relative;
+   top: 60px;
+   left: 57px;
+
+   height: 105px;
+   width: 108px;
+   border-color: black;
+ }
+
+ iframe#tela {
+   position: relative;
+   top: 68px;
+   left: 99px;
+
+   height: 190px;
+   width: 293px;
+   border-color: black;
+ }
+
+ section#redes-sociais {
+   text-align: right;
+
+ }
+
+ section#redes-sociais img {
+
+   width: 80px;
+   margin: 25px 160px 0px 0px;
+   border-radius: 50%;
+   box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.884);
+   box-sizing: border-box;
+ }
+
+ section#redes-sociais img:hover {
+   border: 4px solid rgba(3, 3, 3, 0.92);
+   transform: translate(2px, 3px);
+   transition: transform 0.5s;
+   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.733);
+ }
