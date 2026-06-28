@@ -88,8 +88,9 @@
  }
 
  section#playdemo p a {
-    color: white;
-    text-decoration: none;
+   color: white;
+   text-decoration: none;
+   background-repeat: no-repeat;
  }
 
  section#playdemo p:hover {
@@ -138,12 +139,15 @@
 
  iframe#tela {
    position: relative;
-   top: 68px;
-   left: 99px;
+   top: 66px;
+   left: 101px;
 
-   height: 190px;
-   width: 293px;
-   border-color: black;
+   background-color: black;
+   height: 197px;
+   width: 294px;
+   border: none;
+   border-radius: 4px;
+
  }
 
  section#redes-sociais {

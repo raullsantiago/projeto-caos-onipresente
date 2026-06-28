@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+@media screen and (orientation: portrait) {
+
+#playdemo {
+    display: none;
+}
+
+section#quadro-g {
+    
+    height: 290px;
+    width: 400px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -25%); 
+}
+
+iframe#tela {
+    height: 174px;
+    width: 259px;
+
+    position: relative;
+    top: 19%;
+    left: 22%;
+}
+
+  /* Configuração da barra de redes sociais para mobile */
+    #redes-sociais.container {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 12px 0px;
+        z-index: 1000;
+        
+        /* Alinhamento horizontal compacto */
+        display: flex;
+        flex-direction: row; /* Força ficar na horizontal */
+        justify-content: center; /* Junta os itens no centro */
+        gap: 8px; /* Espaço controlado entre os ícones */
+    }
+
+    /* Ajuste do tamanho dos links e ícones no celular */
+    #redes-sociais a {
+        display: inline-block;
+        width: auto;
+    }
+
+    #redes-sociais .item {
+        width: 60px; /* Ícones ligeiramente menores para telas pequenas */
+        height: auto;
+        margin: 0px 0px 20px 40px;
+    }
+}
+
+
+
