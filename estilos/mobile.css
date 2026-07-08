@@ -2,31 +2,31 @@
 
 @media screen and (orientation: portrait) {
 
-#playdemo {
-    display: none;
-}
+    #playdemo {
+        display: none;
+    }
 
-section#quadro-g {
-    
-    height: 290px;
-    width: 400px;
+    section#quadro-g {
 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -25%); 
-}
+        height: 290px;
+        width: 400px;
 
-iframe#tela {
-    height: 174px;
-    width: 259px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -25%);
+    }
 
-    position: relative;
-    top: 19%;
-    left: 22%;
-}
+    iframe#tela {
+        height: 174px;
+        width: 259px;
 
-  /* Configuração da barra de redes sociais para mobile */
+        position: relative;
+        top: 19%;
+        left: 22%;
+    }
+
+    /* Configuração da barra de redes sociais para mobile */
     #redes-sociais.container {
         position: fixed;
         bottom: 0;
@@ -34,12 +34,15 @@ iframe#tela {
         width: 100%;
         padding: 12px 0px;
         z-index: 1000;
-        
+
         /* Alinhamento horizontal compacto */
         display: flex;
-        flex-direction: row; /* Força ficar na horizontal */
-        justify-content: center; /* Junta os itens no centro */
-        gap: 8px; /* Espaço controlado entre os ícones */
+        flex-direction: row;
+        /* Força ficar na horizontal */
+        justify-content: center;
+        /* Junta os itens no centro */
+        gap: 5px;
+        /* Espaço controlado entre os ícones */
     }
 
     /* Ajuste do tamanho dos links e ícones no celular */
@@ -49,11 +52,15 @@ iframe#tela {
     }
 
     #redes-sociais .item {
-        width: 60px; /* Ícones ligeiramente menores para telas pequenas */
+        width: 70px;
+        /* Ícones ligeiramente menores para telas pequenas */
         height: auto;
         margin: 0px 0px 20px 40px;
     }
 }
 
-
-
+@media screen and (orientation: landscape ) {
+    section#quadro-p {
+       display: none;
+    }
+}
